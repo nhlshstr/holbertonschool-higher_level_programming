@@ -20,4 +20,5 @@ if __name__ == "__main__":
 
     if first_one is not None:
         print("{}: {}".format(first_one.id, first_one.name))
-
+    else:
+        print("Nothing")
