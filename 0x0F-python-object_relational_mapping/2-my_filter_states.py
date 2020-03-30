@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-#Lists all states in a table that matches argv[4]
-
+'''
+Lists all states in a table that matches argv[4]
+'''
 if __name__ == "__main__":
     import sys
     import MySQLdb
