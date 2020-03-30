@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 # Lists all of the states in the table
 import sys
 import MySQLdb
