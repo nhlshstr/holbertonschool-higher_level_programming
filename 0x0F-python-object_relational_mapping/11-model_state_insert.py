@@ -16,7 +16,7 @@ if __name__ == "__main__":
     sesh.configure(bind=engine)
     session__ = sesh()
 
-    to_add = State(name="Loisiana")
+    to_add = State(name="Louisiana")
     session__.add(to_add)
     session__.flush()
     print(to_add.id)
