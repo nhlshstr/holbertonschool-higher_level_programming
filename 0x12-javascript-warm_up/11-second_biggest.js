@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 function secondBiggest (arr) {
-  if (arr.length === (1 || 0)) return 0;
+  if (arr.length === 1 || arr.length === 0) return 0;
   let max = -Infinity;
   let max2 = -Infinity;
   for (let x = 0; x < arr.length; x++) {
