@@ -1,5 +1,5 @@
 #!/usr/bin/node
-// Array * by index
+// Array * by the index
 const oldList = require('./100-data').list;
 const newList = oldList.map(function (cur, index) {
   return cur * index;
