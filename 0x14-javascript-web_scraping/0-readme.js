@@ -1,5 +1,5 @@
 #!/usr/bin/node
-// Reads & prints filei
+// Reads & prints file
 
 const fs = require('fs');
 
