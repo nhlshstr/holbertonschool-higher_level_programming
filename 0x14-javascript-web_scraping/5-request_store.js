@@ -1,5 +1,5 @@
 #!/usr/bin/node
-// Copy body
+// Copy the body
 
 const req = require('request');
 const fs = require('fs');
